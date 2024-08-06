@@ -19,15 +19,7 @@ export class AppComponent implements OnInit {
 
   ngOnInit(): void {
     if (typeof window !== 'undefined') {
-      // Add a new tag called grid_tile under the element id map
-      // const mapElement = this.el.nativeElement.querySelector('#map');
-      // const gridTile = this.renderer.createElement('div');
-      // const coords = { x: 0, y: 0, z: 0 }; // Define the 'coords' variable and assign initial values
-      // gridTile.innerHTML = `x${coords.x}, y${coords.y}, ${coords.z}`;
-      // gridTile.style.outline = '1px solid navy';
-      // this.renderer.setAttribute(gridTile, 'id', 'grid_tile');
-      // this.renderer.appendChild(mapElement, gridTile);
-  
+      
       this.initMap();
     }
   }
